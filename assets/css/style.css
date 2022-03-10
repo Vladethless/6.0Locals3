@@ -1034,7 +1034,7 @@ p {
   font-size: 20px;
   margin-right: 10px;
 }
-.header__info-text h6 {
+.header__info-text .like_h6 {
   font-size: 12px;
   font-weight: 400;
   color: #cacad5;
@@ -1895,9 +1895,11 @@ p {
   padding: 35px 40px;
   padding-bottom: 55px;
 }
-.slider__form-inner h5 {
+.slider__form-inner .like_h5 {
   text-transform: capitalize;
   color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
 }
 .slider__form-input input {
   width: 100%;
@@ -2200,8 +2202,9 @@ p {
   position: relative;
   z-index: 11;
 }
-.about__img-2 {
+..about__img-2 img {
   margin-top: -170px;
+  width: 370px;
 }
 @media (max-width: 575px) {
   .about__img-2 {
@@ -2211,6 +2214,7 @@ p {
 .about__img-2 img {
   border-top: 15px solid #ffffff;
   border-left: 15px solid #ffffff;
+  width: 370px;
 }
 .about__img-2-inner {
   position: relative;
@@ -2299,7 +2303,7 @@ p {
   background: -ms-linear-gradient(to right, #F25743 0%, #EB3648 100%);
   background: linear-gradient(to right, #F25743 0%, #EB3648 100%);
 }
-.about__experience h2 {
+.about__experience p {
   font-size: 24px;
   margin-bottom: 0px;
 }
@@ -2334,15 +2338,16 @@ p {
   display: none;
 }
 @media (max-width: 575px) {
-  .about__experience-3 h2 {
+  .about__experience-3 p {
     font-size: 14px;
   }
 }
-.about__experience-3 h2 span {
+.about__experience-3 p span {
   color: #f15144;
+  font-size: 60px;
 }
 @media (max-width: 575px) {
-  .about__experience-3 h2 span {
+  .about__experience-3 p span {
     font-size: 16px;
   }
 }
@@ -3697,7 +3702,7 @@ p {
   visibility: visible;
 }
 .testimonial__item-3:hover .testimonial__content-3 p {
-  color: #ababb5;
+  color: #000;
 }
 .testimonial__item-3:hover .testimonial__person-3 h3 {
   color: #ffffff;
@@ -3773,8 +3778,11 @@ p {
 .testimonial__content-4 p {
   margin-bottom: 7px;
 }
-.testimonial__person h3 {
+.testimonial__person p {
   margin-bottom: 0;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
 }
 .testimonial__person .avater-company {
   font-size: 16px;
@@ -4522,7 +4530,7 @@ p {
 .features__item:hover .features__icon i::before {
   color: #ffffff;
 }
-.features__item:hover .features__content h5 {
+.features__item:hover .features__content h3 {
   color: #ffffff;
 }
 .features__item:hover .features__content p {
@@ -5362,11 +5370,11 @@ p {
   font-size: 60px;
   color: #f15144;
 }
-.counter__content h2 {
+.counter__content p {
   font-size: 18px;
   margin-bottom: 0;
 }
-.counter__content h2 span {
+.counter__content p span {
   font-size: 60px;
 }
 .counter__content span {
@@ -5401,7 +5409,6 @@ p {
 }
 .counter__inner p {
   font-size: 16px;
-  margin-bottom: 35px;
 }
 
 /*----------------------------------------*/
@@ -7213,7 +7220,7 @@ p.checkout-coupon input[type=text] {
 .footer__widget-title {
   margin-bottom: 23px;
 }
-.footer__widget-title h5 {
+.footer__widget-title h4 {
   color: #ffffff;
 }
 .footer__widget-title img {
