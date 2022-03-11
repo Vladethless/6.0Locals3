@@ -415,6 +415,9 @@ p {
 .mt--270 {
   margin-top: -270px;
 }
+.portfolio__goal-img img{
+  width: 440px;
+}
 
 .mb--240 {
   margin-bottom: -240px;
@@ -3313,6 +3316,7 @@ p {
 @media (max-width: 575px) {
   .portfolio__goal-img {
     margin-right: 0;
+    
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
