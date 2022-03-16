@@ -60,11 +60,17 @@ body {
 .w-img img {
   width: 100%;
 }
-
+.center__item{
+  display: inline-block;
+  float: none;
+}
 .m-img img {
   max-width: 100%;
 }
-
+.center{
+  display: flex;
+  justify-content: center;
+}
 input:focus {
   outline: none;
 }
