@@ -1724,10 +1724,11 @@ p {
   height: 760px;
 }
 .slider__content p {
-  font-size: 72px;
+  font-size: 62px;
   color: #ffffff;
   margin-bottom: 20px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 @media (max-width: 575px) {
   .slider__content perspective: ; {
@@ -1735,9 +1736,8 @@ p {
   }
 }
 .slider__content span {
-  color: #f15144;
+  color: #ffffff;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
   margin-bottom: 20px;
@@ -2396,7 +2396,6 @@ p {
 .about__content-inner-2 p {
   font-size: 18px;
   font-weight: 400;
-  margin-left: 17px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about__content-2 {
@@ -4909,7 +4908,7 @@ p {
   padding-top: 6px;
 }
 .faq__bar-title h3 {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4954,6 +4953,7 @@ p {
   background: transparent;
   color: #1e1e2a;
   width: 100%;
+  line-height: 1.6;
   text-align: left;
   position: relative;
   padding-right: 15px;
