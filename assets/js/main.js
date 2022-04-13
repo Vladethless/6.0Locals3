@@ -533,17 +533,17 @@
 		
 		////////////////////////////////////////////////////
 		// 22. Range Slider Js
-		$("#slider-range").slider({
-		range: true,
-		min: 0,
-		max: 500,
-		values: [75, 300],
-		slide: function (event, ui) {
-			$("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-		}
-		});
-		$("#amount").val("$" + $("#slider-range").slider("values", 0) +
-			" - $" + $("#slider-range").slider("values", 1));
+		// $("#slider-range").slider({
+		// range: true,
+		// min: 0,
+		// max: 500,
+		// values: [75, 300],
+		// slide: function (event, ui) {
+		// 	$("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+		// }
+		// });
+		// $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+		// 	" - $" + $("#slider-range").slider("values", 1));
 	
 
 		////////////////////////////////////////////////////
@@ -566,27 +566,27 @@
 		});
 
 
-		////////////////////////////////////////////////////
-		// 24. Show Login Toggle Js
-		$('#showlogin').on('click', function () {
-			$('#checkout-login').slideToggle(900);
-		});
+		// ////////////////////////////////////////////////////
+		// // 24. Show Login Toggle Js
+		// $('#showlogin').on('click', function () {
+		// 	$('#checkout-login').slideToggle(900);
+		// });
 
-		////////////////////////////////////////////////////
-		// 25. Show Coupon Toggle Js
-		$('#showcoupon').on('click', function () {
-			$('#checkout_coupon').slideToggle(900);
-		});
+		// ////////////////////////////////////////////////////
+		// // 25. Show Coupon Toggle Js
+		// $('#showcoupon').on('click', function () {
+		// 	$('#checkout_coupon').slideToggle(900);
+		// });
 
-		////////////////////////////////////////////////////
-		// 26. Create An Account Toggle Js
-		$('#cbox').on('click', function () {
-			$('#cbox_info').slideToggle(900);
-		});
+		// ////////////////////////////////////////////////////
+		// // 26. Create An Account Toggle Js
+		// $('#cbox').on('click', function () {
+		// 	$('#cbox_info').slideToggle(900);
+		// });
 
-		////////////////////////////////////////////////////
-		// 27. Shipping Box Toggle Js
-		$('#ship-box').on('click', function () {
-			$('#ship-box-info').slideToggle(1000);
-		});
+		// ////////////////////////////////////////////////////
+		// // 27. Shipping Box Toggle Js
+		// $('#ship-box').on('click', function () {
+		// 	$('#ship-box-info').slideToggle(1000);
+		// });
 })(jQuery);
